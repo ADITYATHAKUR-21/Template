@@ -7,7 +7,7 @@ const Card = () => {
       {/* Left Card */}
       <div className="flex-1 bg-gray-50  rounded-2xl shadow-lg text-center p-10 ">
         <img
-          src="./public/2.jpg"
+          src="/2.jpg"
           alt="Jack Daniel's Honey"
           className="mx-auto w-56"
         />
@@ -24,7 +24,7 @@ const Card = () => {
       {/* Middle Card */}
         <div className="flex-1 bg-gray-50 p-6 rounded-2xl shadow-lg  text-center">
           <img
-            src="./public/1.jpg"
+            src="/1.jpg"
             alt=""
             className="mx-auto w-full h-80 mb-4"
           />
@@ -40,7 +40,7 @@ const Card = () => {
       {/* Right Card */}
       <div className="flex-1 bg-gray-50 p-6 rounded-2xl shadow-lg">
         <img
-          src="./public/ 3.jpg"
+          src="/ 3.jpg"
 
           alt="Single Barrel"
           className="w-full rounded-xl"
