@@ -29,8 +29,8 @@ const Card = () => {
             className="mx-auto w-full h-80 mb-4"
           />
           <p className="text-sm text-gray-700">
-          jd Tennessee Whiskey is the world's best-selling whiskey. Every bottle is distilled and bottled at the Jack Daniel Distillery
-           in Lynchburg, Tennessee. Established in 1866, the Jack Daniel Distillery is the oldest registered distillery in America. Made from the
+          Jd Tennessee Whiskey is the world's best-selling whiskey. Every bottle is distilled and bottled at the J  Distillery
+           in Lynchburg, Tennessee. Established in 1966, the Jack Daniel Distillery is the oldest registered distillery in . Made from the
             finest corn, rye, and barley malt, these choice grains are mixed with 
              
           </p>
@@ -46,10 +46,10 @@ const Card = () => {
           className="w-full rounded-xl"
         />
         <h2 className="mt-4 font-semibold text-lg">
-         js SINGLE BARREL AND DELHI DUTY FREE UNVEILS HAND SELECTED PERSONAL COLLECTION
+         JS SINGLE BARREL AND  DUTY FREE UNVEILS HAND SELECTED PERSONAL COLLECTION
         </h2>
         <p className="mt-2 text-gray-600 text-sm">
-          js Single Barrel and Delhi Duty-Free are debuting its hand-selected Personal Collection program this summer.
+          Jb Single Barrel and  Duty-Free are debuting its hand-selected Personal Collection program this summer.
         </p>
       </div>
     </div>

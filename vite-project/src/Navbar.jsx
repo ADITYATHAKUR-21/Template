@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { FiSearch } from 'react-icons/fi';
+import { FiSearch, FiShoppingCart } from 'react-icons/fi';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [cartCount, setCartCount] = useState(); // Example cart item count
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
@@ -11,9 +12,12 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <img src="https://img.freepik.com/premium-vector/initial-monogram-logo-with-letter-style-design_1190297-41666.jpg?ga=GA1.1.334027385.1744396701&semt=ais_hybrid&w=740"
-             alt="" className="w-10 h-10"/>
-            <span className="text-xl font-bold text-gray-900">MANNU DA THEKA</span>
+            <img
+              src="https://img.freepik.com/premium-vector/initial-monogram-logo-with-letter-style-design_1190297-41666.jpg?ga=GA1.1.334027385.1744396701&semt=ais_hybrid&w=740"
+              alt=""
+              className="w-10 h-10"
+            />
+            <span className="text-xl font-bold text-gray-900 ml-2">MANNU DA THEKA</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -21,7 +25,6 @@ const Navbar = () => {
             <a href="#" className="text-gray-900 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">HOME</a>
             <a href="#" className="text-gray-900 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">BRANDS</a>
             <a href="#" className="text-gray-900 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">SERVICES</a>
-            <a href="#" className="text-gray-900 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">PRODUCT</a>
             <a href="#" className="text-gray-900 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">CONTACT</a>
             
             {/* Search Bar */}
@@ -32,13 +35,20 @@ const Navbar = () => {
               <input
                 type="text"
                 placeholder="Search here..."
-                className="block w-full pl-10 pr-3 py-2 border border-gray-600 rounded-md leading-5 bg-white placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800  sm:text-sm"
+                className="block w-full pl-10 pr-3 py-2 border border-gray-600 rounded-md leading-5 bg-white placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 sm:text-sm"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
             </div>
+
+            {/* Cart Icon */}
+            <div className="ml-4 cursor-pointer relative">
+              <FiShoppingCart className="w-5 h-5 text-gray-800 hover:text-blue-600" />
+              <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs rounded-full px-1">
+                {cartCount}
+              </span>
+            </div>
           </div>
-        
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
@@ -71,7 +81,7 @@ const Navbar = () => {
             <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-blue-600 hover:bg-gray-50">Services</a>
             <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-blue-600 hover:bg-gray-50">Blog</a>
             <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-blue-600 hover:bg-gray-50">Contact</a>
-            
+
             {/* Mobile Search Bar */}
             <div className="mt-4 relative rounded-md shadow-sm">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -85,6 +95,12 @@ const Navbar = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
             </div>
+
+            {/* Cart Icon for Mobile */}
+            <div className="mt-4 flex items-center space-x-2">
+              <FiShoppingCart className="w-5 h-5 text-gray-800" />
+              <span className="text-sm text-gray-800">Cart ({cartCount})</span>
+            </div>
           </div>
         </div>
       )}
@@ -93,3 +109,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
