@@ -12,8 +12,8 @@ function Footer() {
             </div>
 
             <p className="mt-4 max-w-xs text-gray-500 dark:text-gray-400">
-            Jack Daniel s Tennessee Whiskey is the world s best-selling whiskey.
-             Every bottle is distilled and bottled at the Jack Daniel Distillery in
+            J D  Tennessee Whiskey is the world s best-selling whiskey.
+             Every bottle is distilled and bottled at the J D Distillery in
             </p>
 
             <ul className="mt-8 flex gap-6">
