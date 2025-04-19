@@ -17,7 +17,7 @@ const Navbar = () => {
               alt=""
               className="w-10 h-10"
             />
-            <span className="text-xl font-bold text-gray-900 ml-2">MANNU DA THEKA</span>
+            <span className="text-xl font-bold text-gray-900 ml-2">MANU DA THEKA</span>
           </div>
 
           {/* Desktop Navigation */}
