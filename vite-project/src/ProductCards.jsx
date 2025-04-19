@@ -22,9 +22,9 @@ const products = [
     image: "https://images.pexels.com/photos/15916905/pexels-photo-15916905/free-photo-of-bottle-of-the-macallan-scotch-whiskey.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    name: "Chivas Regal ",
+    name: "Bell's ",
     price: 30390,
-    image: "https://images.pexels.com/photos/27819451/pexels-photo-27819451/free-photo-of-a-bottle-of-wine-and-a-glass-sitting-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.pexels.com/photos/263006/pexels-photo-263006.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     name: "Jack  Tennessee Fire",
@@ -32,9 +32,9 @@ const products = [
     image: "https://images.pexels.com/photos/9202892/pexels-photo-9202892.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    name: "Casillero del Diablo",
+    name: "Chivas Regal",
     price: 40690,
-    image: "https://images.pexels.com/photos/20320313/pexels-photo-20320313/free-photo-of-glass-and-bottle-of-wine.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.pexels.com/photos/2767734/pexels-photo-2767734.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     name: "Bacardi, Jameson, Chivas, and others",

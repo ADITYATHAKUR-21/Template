@@ -16,8 +16,8 @@ const Card = () => {
           Hmm, Jack is a cool guy, honey is a lustrous lady, so much good a
           combination in just a bottle for in. I love it.
         </p>
-        <p className="mt-3 text-sm font-semibold">Vivek Dutt</p>
-        <p className="text-xs text-gray-400">15 June 2020</p>
+        <p className="mt-3 text-sm font-semibold">Manu Paji</p>
+        <p className="text-xs text-gray-400">20 April  2025</p>
       </div>
 
 
@@ -31,7 +31,8 @@ const Card = () => {
           <p className="text-sm text-gray-700">
           Jd Tennessee Whiskey is the world's best-selling whiskey. Every bottle is distilled and bottled at the J  Distillery
            in Lynchburg, Tennessee. Established in 1966, the Jack Daniel Distillery is the oldest registered distillery in . Made from the
-            finest corn, rye, and barley malt, these choice grains are mixed with 
+            finest corn, rye, and barley malt, these choice grains are mixed with the iron-free water that flows from the Cave Spring on the
+             distillery grounds.
              
           </p>
         </div>
